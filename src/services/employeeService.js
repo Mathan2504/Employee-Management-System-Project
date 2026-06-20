@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/emp';
+const API_URL = 'https://employee-management-system-backend-1-osnv.onrender.com';
 
 export const createEmployee = async (employee) => {
     const response = await axios.post(API_URL, employee);
